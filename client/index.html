@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Employee Management System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>
+  // Simple entry-point redirect based on auth state
+  const token = localStorage.getItem('ems_token');
+  window.location.replace(token ? 'dashboard.html' : 'login.html');
+</script>
+</head>
+<body>
+</body>
+</html>

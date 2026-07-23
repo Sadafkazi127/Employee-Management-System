@@ -1,0 +1,46 @@
+/* ============================================================
+   Custom styles layered on top of the Tailwind CDN build
+   ============================================================ */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+/* Slim, modern scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
+
+/* Skeleton loading shimmer for table rows */
+.skeleton {
+  background: linear-gradient(90deg, #e2e8f0 25%, #f1f5f9 37%, #e2e8f0 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+}
+@keyframes shimmer {
+  0% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
+}
+
+/* Gradient login background */
+.auth-gradient {
+  background: radial-gradient(circle at 20% 20%, #3b82f6 0%, transparent 45%),
+              radial-gradient(circle at 80% 0%, #1d4ed8 0%, transparent 40%),
+              linear-gradient(135deg, #1e3a8a 0%, #1e40af 45%, #2563eb 100%);
+}

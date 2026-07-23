@@ -1,0 +1,12 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Employee Management System (Node.js, Express, MySQL, Tailwind CSS, Vanilla JS)",
+  "private": true,
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "start": "cd server && npm start",
+    "dev": "cd server && npm run dev"
+  },
+  "license": "MIT"
+}
