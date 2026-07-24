@@ -208,12 +208,10 @@ Add your own screenshots to `docs/screenshots/` and reference them here, e.g.:
 ![Dashboard](client/Screenshots/Dashboard.png)
 
 ### Employees List
-![Employees](client/Screenshots/Employeedocs.png)
+![Employees](client/Screenshots/Employeelogs.png)
 
 ### Profile
 ![Profile](client/Screenshots/profile.png)
-
----
 
 ## 🔒 Security Notes
 
