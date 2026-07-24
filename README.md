@@ -201,9 +201,10 @@ Enforced on both the client (instant feedback) and the server (source of truth):
 Add your own screenshots to `docs/screenshots/` and reference them here, e.g.:
 
 ```markdown
-![Login Page](docs/screenshots/login.png)
-![Dashboard](docs/screenshots/dashboard.png)
-![Employees List](docs/screenshots/employees.png)
+![Login Page](docs/Screenshots/Login.png)
+![Dashboard](docs/Screenshots/Dashboard.png)
+![Employees List](docs/Screenshots/Employeelogs.png)
+![Profile](docs/profile.png)
 ```
 
 ---
