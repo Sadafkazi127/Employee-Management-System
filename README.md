@@ -199,13 +199,19 @@ Enforced on both the client (instant feedback) and the server (source of truth):
 ## 📸 Screenshots
 
 Add your own screenshots to `docs/screenshots/` and reference them here, e.g.:
+## 📸 Screenshots
 
-```markdown
-![Login Page](docs/Screenshots/Login.png)
-![Dashboard](docs/Screenshots/Dashboard.png)
-![Employees List](docs/Screenshots/Employeelogs.png)
-![Profile](docs/profile.png)
-```
+### Login Page
+![Login](client/Screenshots/Login.png)
+
+### Dashboard
+![Dashboard](client/Screenshots/Dashboard.png)
+
+### Employees List
+![Employees](client/Screenshots/Employeedocs.png)
+
+### Profile
+![Profile](client/Screenshots/profile.png)
 
 ---
 
